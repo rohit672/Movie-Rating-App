@@ -80,12 +80,35 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-//        FirebaseRecyclerOptions<Model> options =
-//                new FirebaseRecyclerOptions.Builder<Model>()
-//                        .setQuery(dbref.child("rohit"), Model.class)
-//                        .build();
+        FirebaseRecyclerOptions<Model> options =
+                new FirebaseRecyclerOptions.Builder<Model>()
+                        .setQuery(dbref.child("rohit"), Model.class)
+                        .build();
 
+//        ArrayList<Model> holder = new ArrayList<>() ;
+//
+//
+//        adapter = new myadapter(holder) ;
+//        rcv.setAdapter(adapter);
 
+//        dbref.child("rohit").addListenerForSingleValueEvent(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(@NonNull DataSnapshot snapshot) {
+//
+//                  for (DataSnapshot snap : snapshot.getChildren()) {
+//
+//                         Model data = snap.getValue(Model.class);
+//                         holder.add(data) ;
+//                  }
+//                adapter = new myadapter(holder),getApplicationContext() ;
+//                rcv.setAdapter(adapter);
+//            }
+//
+//            @Override
+//            public void onCancelled(@NonNull DatabaseError error) {
+//
+//            }
+//        });
 
     }
 
