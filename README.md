@@ -1,0 +1,1 @@
+This is a movie rating app using Realtime Database . You can add a movie with a rating or you can rate the listed movie . You can also change the rating for any movie and only the last updated rating will be counted.
