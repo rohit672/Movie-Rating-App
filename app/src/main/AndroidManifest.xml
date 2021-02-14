@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.recyclecard">
+    package="com.example.movie_review">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,16 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RecycleCard">
-        <activity android:name=".NewRatingActivity"></activity>
-        <activity android:name=".SignInActivity">
+        <activity android:name="com.example.movie_review.SignInActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddActivity" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name="com.example.movie_review.AddActivity" />
+        <activity android:name="com.example.movie_review.MainActivity"></activity>
     </application>
 
 </manifest>

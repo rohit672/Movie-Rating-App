@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:10667550526:android:23b3c95c8b15b237d42e6f",
+        "mobilesdk_app_id": "1:10667550526:android:c654e711f1a381aad42e6f",
         "android_client_info": {
-          "package_name": "com.example.recyclecard"
+          "package_name": "com.example.movie_review"
         }
       },
       "oauth_client": [

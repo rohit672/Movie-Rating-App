@@ -1,4 +1,4 @@
-package com.example.recyclecard;
+package com.example.movie_review;
 
 import org.junit.Test;
 
